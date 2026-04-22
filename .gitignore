@@ -1,0 +1,217 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+*.venv
+Scripts/
+Lib/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables and secrets
+.env
+.env.local
+.env*.local
+*.env
+.envrc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*~WRL*.tmp
+
+# Output directories (keep data but ignore large generated outputs)
+output/*.pt
+output/*.pth
+output/*.bin
+output/*.safetensors
+*.checkpoint
+checkpoints/
+
+# Kaggle configuration
+.kaggle/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Large files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Model files (keep track of important ones via Git LFS)
+# *.bin
+# *.pt
+# *.pth
+# *.safetensors
+
+# Data files (optional - uncomment if needed)
+# data/raw/
+# data/processed/
+
+# CLOUD ATTACK PROJECT FILES - EXCLUDE COMPLETELY
+cloud attack simulator zips/
+caldera.windows-stale/
+cyber-llm/
+kali/
+java (apna)/
+java from Ground zero/
+languages/
+games/
+html(apna)/
+iphone unlockers/
+# Exclude all shortcuts
+*.lnk
+
+# Personal files - DO NOT TRACK
+*.docx
+*.doc
+*.pdf
+*.jpg
+*.png
+*.mp3
+*.wav
+*passport*
+*CV*
+*DGPA*
+*internship*
+*deed*
+*property*
+*schedule*
+Adelix/
+sanjay/
+V/
+OneDrive/
+
+# Specific files to exclude
+Saketh passport.jpg
+of.jpg
+infosysML.pdf
+karthikamasam.pdf
+lovejihad.docx
+kalyanashobha.zip
+kalyanashobha/
+
+# Windows temporary files
+~$*.docx
+~$*.doc
+~WRL*.tmp
+
+# System files
+desktop.ini
+.849C9593-D756-4E56-8D6E-42412F2A707B
+
+# Archive files
+*.zip
+*.rar
+
+# Never track sensitive data
+.ssh/
+.gnupg/
+*.key
+*.pem
+*.pfx
+*.p12
+secrets.json
+config_local.py
+
+# Node/npm (if any frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE debugging
+.vscode/launch.json
+.vscode/settings.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Ignore everything in parent directories except this project
+/../*/
+../../*/
+!../../projects/

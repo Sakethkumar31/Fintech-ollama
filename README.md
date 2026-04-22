@@ -708,16 +708,3 @@ git push origin feature/amazing-feature
 
 MIT License - See LICENSE file for details
 
----
-
-## 👤 Author
-
-**Saketh Kumar**
-- GitHub: [@Sakethkumar31](https://github.com/Sakethkumar31)
-- Email: kalyanashibha@gmail.com
-
----
-
-**Last Updated**: April 22, 2026  
-**Version**: 2.0.0  
-**Status**: Production Ready ✅
